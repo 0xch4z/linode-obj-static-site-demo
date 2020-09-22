@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue';
+}/* foo */
+
+#root {
+    background-color: #02b159;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #02b159;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 500ms ease-in-out;
+}
+
+.button:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
